@@ -1,6 +1,6 @@
-"use strict"; // treat all JS code as newer version
+"use strict"; // treat all JS code as newer version, Standard for Modern Js
 
-// alert( 3 + 3) // we are using nodejs, not browser
+ alert( 3 + 3) // we are using nodejs, not browser, Used for browser PopUp
 
 console.log(3 
     +

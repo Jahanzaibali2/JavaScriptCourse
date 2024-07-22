@@ -1,6 +1,6 @@
-const accountId = 144553
-let accountEmail = "hitesh@google.com"
-var accountPassword = "12345"
+const accountId = 144553        // Cant change constants ofc
+let accountEmail = "hitesh@google.com" //Prefered, Scope fully defined. 
+var accountPassword = "12345"       // Scope aint defined, whats scope? { --Scope-- }
 accountCity = "Jaipur"
 let accountState;
 
