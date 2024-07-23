@@ -33,4 +33,4 @@ console.log(url.replace('%20', '-'))        //As the name suggests
 console.log(url.replace('hitesh', 'Jahanzaib').replace('hitesh', 'Jahanzaib'))       
 console.log(url.includes('sundar'))     //Is Sundar included in our string?
 
-console.log(gameName.split('-'));       //Splits the string the moment it sees "-"
+console.log(gameName.split('-'));       //Splits the string the moment it sees "-s"

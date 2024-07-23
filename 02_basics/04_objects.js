@@ -17,7 +17,9 @@ const regularUser = {
     }
 }
 
-// console.log(regularUser.fullname.userfullname.firstname);
+console.log(regularUser.fullname?.userfullname.firstname);
+// the ? actually checks if fullname exists if yes then it will further progresses
+// Shorter and Simpler If/Else, Very helpful where Apis are involved 
 
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
@@ -27,7 +29,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
 const obj3 = {...obj1, ...obj2}
-// console.log(obj3);
+ console.log(obj3);
 
 
 const users = [
